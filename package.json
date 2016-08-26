@@ -1,6 +1,6 @@
 {
   "name": "tachyons-negative-margin",
-  "version": "6.0.1",
+  "version": "1.0.0",
   "style": "src/tachyons-negative-margin.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -11,11 +11,11 @@
     "src",
     "css"
   ],
-  "repository": "tachyons-css/tachyons-negative-margin",
+  "repository": "mikker/tachyons-negative-margin",
   "author": {
-    "name": "mrmrs",
-    "email": "hi@mrmrs.cc",
-    "url": "http://mrmrs.cc"
+    "name": "Mikkel Malmberg",
+    "email": "mikkel@brnbw.com",
+    "url": "https://brnbw.com"
   },
   "license": "ISC",
   "devDependencies": {
