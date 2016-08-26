@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-1376 | 224 | 288
+1220 | 196 | 252
 ---|---|---
 bytes | selectors | declarations
 
@@ -96,7 +96,6 @@ Running `$ npm start` will process the source css and place the built css in the
    b = bottom
    l = left
 
-   0 = none
    1 = 1st step in spacing scale
    2 = 2nd step in spacing scale
    3 = 3rd step in spacing scale
@@ -106,7 +105,6 @@ Running `$ npm start` will process the source css and place the built css in the
    7 = 7th step in spacing scale
 
 */
-.man0 { margin: -0; }
 .man1 { margin: -.25rem; }
 .man2 { margin: -.5rem; }
 .man3 { margin: -1rem; }
@@ -114,7 +112,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .man5 { margin: -4rem; }
 .man6 { margin: -8rem; }
 .man7 { margin: -16rem; }
-.mln0 { margin-left: -0; }
 .mln1 { margin-left: -.25rem; }
 .mln2 { margin-left: -.5rem; }
 .mln3 { margin-left: -1rem; }
@@ -122,7 +119,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mln5 { margin-left: -4rem; }
 .mln6 { margin-left: -8rem; }
 .mln7 { margin-left: -16rem; }
-.mrn0 { margin-right: -0; }
 .mrn1 { margin-right: -.25rem; }
 .mrn2 { margin-right: -.5rem; }
 .mrn3 { margin-right: -1rem; }
@@ -130,7 +126,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mrn5 { margin-right: -4rem; }
 .mrn6 { margin-right: -8rem; }
 .mrn7 { margin-right: -16rem; }
-.mbn0 { margin-bottom: -0; }
 .mbn1 { margin-bottom: -.25rem; }
 .mbn2 { margin-bottom: -.5rem; }
 .mbn3 { margin-bottom: -1rem; }
@@ -138,7 +133,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mbn5 { margin-bottom: -4rem; }
 .mbn6 { margin-bottom: -8rem; }
 .mbn7 { margin-bottom: -16rem; }
-.mtn0 { margin-top: -0; }
 .mtn1 { margin-top: -.25rem; }
 .mtn2 { margin-top: -.5rem; }
 .mtn3 { margin-top: -1rem; }
@@ -146,7 +140,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mtn5 { margin-top: -4rem; }
 .mtn6 { margin-top: -8rem; }
 .mtn7 { margin-top: -16rem; }
-.mv0 { margin-top: 0; margin-bottom: 0; }
 .mv1 { margin-top: .25rem; margin-bottom: .25rem; }
 .mv2 { margin-top: .5rem; margin-bottom: .5rem; }
 .mv3 { margin-top: 1rem; margin-bottom: 1rem; }
@@ -154,7 +147,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mv5 { margin-top: 4rem; margin-bottom: 4rem; }
 .mv6 { margin-top: 8rem; margin-bottom: 8rem; }
 .mv7 { margin-top: 16rem; margin-bottom: 16rem; }
-.mhn0 { margin-left: -0; margin-right: -0; }
 .mhn1 { margin-left: -.25rem; margin-right: -.25rem; }
 .mhn2 { margin-left: -.5rem; margin-right: -.5rem; }
 .mhn3 { margin-left: -1rem; margin-right: -1rem; }
@@ -163,7 +155,6 @@ Running `$ npm start` will process the source css and place the built css in the
 .mhn6 { margin-left: -8rem; margin-right: -8rem; }
 .mhn7 { margin-left: -16rem; margin-right: -16rem; }
 @media screen and (min-width: 30em) {
- .man0-ns { margin: -0; }
  .man1-ns { margin: -.25rem; }
  .man2-ns { margin: -.5rem; }
  .man3-ns { margin: -1rem; }
@@ -171,7 +162,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .man5-ns { margin: -4rem; }
  .man6-ns { margin: -8rem; }
  .man7-ns { margin: -16rem; }
- .mln0-ns { margin-left: -0; }
  .mln1-ns { margin-left: -.25rem; }
  .mln2-ns { margin-left: -.5rem; }
  .mln3-ns { margin-left: -1rem; }
@@ -179,7 +169,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mln5-ns { margin-left: -4rem; }
  .mln6-ns { margin-left: -8rem; }
  .mln7-ns { margin-left: -16rem; }
- .mrn0-ns { margin-right: -0; }
  .mrn1-ns { margin-right: -.25rem; }
  .mrn2-ns { margin-right: -.5rem; }
  .mrn3-ns { margin-right: -1rem; }
@@ -187,7 +176,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mrn5-ns { margin-right: -4rem; }
  .mrn6-ns { margin-right: -8rem; }
  .mrn7-ns { margin-right: -16rem; }
- .mbn0-ns { margin-bottom: -0; }
  .mbn1-ns { margin-bottom: -.25rem; }
  .mbn2-ns { margin-bottom: -.5rem; }
  .mbn3-ns { margin-bottom: -1rem; }
@@ -195,7 +183,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mbn5-ns { margin-bottom: -4rem; }
  .mbn6-ns { margin-bottom: -8rem; }
  .mbn7-ns { margin-bottom: -16rem; }
- .mtn0-ns { margin-top: -0; }
  .mtn1-ns { margin-top: -.25rem; }
  .mtn2-ns { margin-top: -.5rem; }
  .mtn3-ns { margin-top: -1rem; }
@@ -203,7 +190,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mtn5-ns { margin-top: -4rem; }
  .mtn6-ns { margin-top: -8rem; }
  .mtn7-ns { margin-top: -16rem; }
- .mvn0-ns { margin-top: -0; margin-bottom: -0; }
  .mvn1-ns { margin-top: -.25rem; margin-bottom: -.25rem; }
  .mvn2-ns { margin-top: -.5rem; margin-bottom: -.5rem; }
  .mvn3-ns { margin-top: -1rem; margin-bottom: -1rem; }
@@ -211,7 +197,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mvn5-ns { margin-top: -4rem; margin-bottom: -4rem; }
  .mvn6-ns { margin-top: -8rem; margin-bottom: -8rem; }
  .mvn7-ns { margin-top: -16rem; margin-bottom: -16rem; }
- .mhn0-ns { margin-left: -0; margin-right: -0; }
  .mhn1-ns { margin-left: -.25rem; margin-right: -.25rem; }
  .mhn2-ns { margin-left: -.5rem; margin-right: -.5rem; }
  .mhn3-ns { margin-left: -1rem; margin-right: -1rem; }
@@ -221,7 +206,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mhn7-ns { margin-left: -16rem; margin-right: -16rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .man0-m { margin: -0; }
  .man1-m { margin: -.25rem; }
  .man2-m { margin: -.5rem; }
  .man3-m { margin: -1rem; }
@@ -229,7 +213,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .man5-m { margin: -4rem; }
  .man6-m { margin: -8rem; }
  .man7-m { margin: -16rem; }
- .mln0-m { margin-left: -0; }
  .mln1-m { margin-left: -.25rem; }
  .mln2-m { margin-left: -.5rem; }
  .mln3-m { margin-left: -1rem; }
@@ -237,7 +220,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mln5-m { margin-left: -4rem; }
  .mln6-m { margin-left: -8rem; }
  .mln7-m { margin-left: -16rem; }
- .mrn0-m { margin-right: -0; }
  .mrn1-m { margin-right: -.25rem; }
  .mrn2-m { margin-right: -.5rem; }
  .mrn3-m { margin-right: -1rem; }
@@ -245,7 +227,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mrn5-m { margin-right: -4rem; }
  .mrn6-m { margin-right: -8rem; }
  .mrn7-m { margin-right: -16rem; }
- .mbn0-m { margin-bottom: -0; }
  .mbn1-m { margin-bottom: -.25rem; }
  .mbn2-m { margin-bottom: -.5rem; }
  .mbn3-m { margin-bottom: -1rem; }
@@ -253,7 +234,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mbn5-m { margin-bottom: -4rem; }
  .mbn6-m { margin-bottom: -8rem; }
  .mbn7-m { margin-bottom: -16rem; }
- .mtn0-m { margin-top: -0; }
  .mtn1-m { margin-top: -.25rem; }
  .mtn2-m { margin-top: -.5rem; }
  .mtn3-m { margin-top: -1rem; }
@@ -261,7 +241,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mtn5-m { margin-top: -4rem; }
  .mtn6-m { margin-top: -8rem; }
  .mtn7-m { margin-top: -16rem; }
- .mvn0-m { margin-top: -0; margin-bottom: -0; }
  .mvn1-m { margin-top: -.25rem; margin-bottom: -.25rem; }
  .mvn2-m { margin-top: -.5rem; margin-bottom: -.5rem; }
  .mvn3-m { margin-top: -1rem; margin-bottom: -1rem; }
@@ -269,7 +248,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mvn5-m { margin-top: -4rem; margin-bottom: -4rem; }
  .mvn6-m { margin-top: -8rem; margin-bottom: -8rem; }
  .mvn7-m { margin-top: -16rem; margin-bottom: -16rem; }
- .mhn0-m { margin-left: -0; margin-right: -0; }
  .mhn1-m { margin-left: -.25rem; margin-right: -.25rem; }
  .mhn2-m { margin-left: -.5rem; margin-right: -.5rem; }
  .mhn3-m { margin-left: -1rem; margin-right: -1rem; }
@@ -279,7 +257,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mhn7-m { margin-left: -16rem; margin-right: -16rem; }
 }
 @media screen and (min-width: 60em) {
- .man0-l { margin: -0; }
  .man1-l { margin: -.25rem; }
  .man2-l { margin: -.5rem; }
  .man3-l { margin: -1rem; }
@@ -287,7 +264,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .man5-l { margin: -4rem; }
  .man6-l { margin: -8rem; }
  .man7-l { margin: -16rem; }
- .mln0-l { margin-left: -0; }
  .mln1-l { margin-left: -.25rem; }
  .mln2-l { margin-left: -.5rem; }
  .mln3-l { margin-left: -1rem; }
@@ -295,7 +271,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mln5-l { margin-left: -4rem; }
  .mln6-l { margin-left: -8rem; }
  .mln7-l { margin-left: -16rem; }
- .mrn0-l { margin-right: -0; }
  .mrn1-l { margin-right: -.25rem; }
  .mrn2-l { margin-right: -.5rem; }
  .mrn3-l { margin-right: -1rem; }
@@ -303,7 +278,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mrn5-l { margin-right: -4rem; }
  .mrn6-l { margin-right: -8rem; }
  .mrn7-l { margin-right: -16rem; }
- .mbn0-l { margin-bottom: -0; }
  .mbn1-l { margin-bottom: -.25rem; }
  .mbn2-l { margin-bottom: -.5rem; }
  .mbn3-l { margin-bottom: -1rem; }
@@ -311,7 +285,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mbn5-l { margin-bottom: -4rem; }
  .mbn6-l { margin-bottom: -8rem; }
  .mbn7-l { margin-bottom: -16rem; }
- .mtn0-l { margin-top: -0; }
  .mtn1-l { margin-top: -.25rem; }
  .mtn2-l { margin-top: -.5rem; }
  .mtn3-l { margin-top: -1rem; }
@@ -319,7 +292,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mtn5-l { margin-top: -4rem; }
  .mtn6-l { margin-top: -8rem; }
  .mtn7-l { margin-top: -16rem; }
- .mvn0-l { margin-top: -0; margin-bottom: -0; }
  .mvn1-l { margin-top: -.25rem; margin-bottom: -.25rem; }
  .mvn2-l { margin-top: -.5rem; margin-bottom: -.5rem; }
  .mvn3-l { margin-top: -1rem; margin-bottom: -1rem; }
@@ -327,7 +299,6 @@ Running `$ npm start` will process the source css and place the built css in the
  .mvn5-l { margin-top: -4rem; margin-bottom: -4rem; }
  .mvn6-l { margin-top: -8rem; margin-bottom: -8rem; }
  .mvn7-l { margin-top: -16rem; margin-bottom: -16rem; }
- .mhn0-l { margin-left: -0; margin-right: -0; }
  .mhn1-l { margin-left: -.25rem; margin-right: -.25rem; }
  .mhn2-l { margin-left: -.5rem; margin-right: -.5rem; }
  .mhn3-l { margin-left: -1rem; margin-right: -1rem; }
