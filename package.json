@@ -1,7 +1,7 @@
 {
-  "name": "tachyons-spacing",
+  "name": "tachyons-negative-margin",
   "version": "6.0.1",
-  "style": "src/tachyons-spacing.css",
+  "style": "src/tachyons-negative-margin.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
@@ -11,7 +11,7 @@
     "src",
     "css"
   ],
-  "repository": "tachyons-css/tachyons-spacing",
+  "repository": "tachyons-css/tachyons-negative-margin",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
@@ -24,9 +24,9 @@
   },
   "scripts": {
     "start": "npm run build:watch",
-    "build:css": "tachyons src/tachyons-spacing.css > css/tachyons-spacing.css",
-    "build:minify": "tachyons src/tachyons-spacing.css --minify > css/tachyons-spacing.min.css",
-    "build:docs": "tachyons src/tachyons-spacing.css --generate-docs --package=../../package.json > readme.md",
+    "build:css": "tachyons src/tachyons-negative-margin.css > css/tachyons-negative-margin.css",
+    "build:minify": "tachyons src/tachyons-negative-margin.css --minify > css/tachyons-negative-margin.min.css",
+    "build:docs": "tachyons src/tachyons-negative-margin.css --generate-docs --package=../../package.json > readme.md",
     "build": "npm run build:css && npm run build:minify && npm run build:docs",
     "build:watch": "watch 'npm run build' ./src"
   },
